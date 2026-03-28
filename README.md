@@ -4,13 +4,7 @@ A classic Snake game built with vanilla HTML, CSS, and JavaScript — featuring 
 
 ## 🎮 Play Now
 
-🔗 **[Live Demo](https://snakemania-interactivejavascriptgame.netlify.app)** *(update this link after deploying)*
-
----
-
-## 📸 Preview
-
-![SnakeMania Preview](preview.png)
+🔗 **[Live Demo](https://snakemania-interactivejavascriptgame.netlify.app)** 
 
 ---
 
