@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SnakeMania</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Overlay / Modal -->
+  <div id="overlay">
+    <div class="modal">
+      <div class="modal-title" id="modal-title">SNAKE MANIA</div>
+      <div class="modal-scores">
+        <div class="modal-score-item">
+          <div class="modal-score-label">SCORE</div>
+          <div class="modal-score-val" id="modal-score-val">0</div>
+        </div>
+        <div class="modal-score-item">
+          <div class="modal-score-label">BEST</div>
+          <div class="modal-score-val" id="modal-hiscore-val">0</div>
+        </div>
+      </div>
+      <div class="new-record" id="new-record">★ NEW RECORD! ★</div>
+      <button class="play-btn" id="play-btn">▶ PLAY</button>
+    </div>
+  </div>
+
+  <!-- Main UI -->
+  <div class="header">
+    <div class="title">🐍 SNAKE MANIA</div>
+  </div>
+
+  <div class="score-bar">
+    <div class="score-box">
+      <div class="score-label">SCORE</div>
+      <div class="score-value" id="scoreVal">0</div>
+    </div>
+    <div class="score-box">
+      <div class="score-label">BEST</div>
+      <div class="score-value" id="hiscoreVal">0</div>
+    </div>
+  </div>
+
+  <div class="speed-bar">
+    <span class="speed-label">SPEED</span>
+    <div class="speed-btns">
+      <button class="spd-btn active" data-tier="0">1</button>
+      <button class="spd-btn" data-tier="1">2</button>
+      <button class="spd-btn" data-tier="2">3</button>
+      <button class="spd-btn" data-tier="3">4</button>
+      <button class="spd-btn" data-tier="4">5</button>
+    </div>
+  </div>
+
+  <div class="board-wrapper">
+    <div id="board"></div>
+  </div>
+
+  <div class="mobile-controls">
+    <button class="ctrl-btn ctrl-up"    id="btn-up">▲</button>
+    <button class="ctrl-btn ctrl-left"  id="btn-left">◀</button>
+    <button class="ctrl-btn ctrl-down"  id="btn-down">▼</button>
+    <button class="ctrl-btn ctrl-right" id="btn-right">▶</button>
+  </div>
+
+  <div class="hint" id="hint">PRESS ANY KEY OR TAP A BUTTON TO START</div>
+
+  <script src="index.js"></script>
+</body>
+</html>
