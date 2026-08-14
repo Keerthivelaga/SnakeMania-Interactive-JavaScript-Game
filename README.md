@@ -77,11 +77,3 @@ Or simply double-click `index.html`.
 - **requestAnimationFrame** — smooth game loop
 
 ---
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-> Made with ❤️ and a lot of snake food 🍎
